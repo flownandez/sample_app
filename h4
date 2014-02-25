@@ -1,0 +1,39 @@
+Script started on Sun 16 Feb 2014 06:14:24 PM CST
+[01;32mchris@chris-VirtualBox[01;34m ~/rails_projects/sample_app $[00m rails c
+Loading development environment (Rails 4.0.2)
+2.0.0-p353 :001 > def string_shuffle(s)
+2.0.0-p353 :002?>   s.split('').shuffle.join
+2.0.0-p353 :003?>   end
+ => nil 
+2.0.0-p353 :004 > string_shuffle("foobar")
+ => "aboofr" 
+2.0.0-p353 :005 > ca[Klass String
+2.0.0-p353 :006?>   def shuffle
+2.0.0-p353 :007?>     self.split.[K('').shuffle.join
+2.0.0-p353 :008?>     end
+2.0.0-p353 :009?>   end
+ => nil 
+2.0.0-p353 :010 > "foobar".shuffle
+ => "obarof" 
+2.0.0-p353 :011 > person1 = ( [K[K{ :[Kfirst: "p[KPapa" l[K[K, last: "Fernandez" }
+ => {:first=>"Papa", :last=>"Fernandez"} 
+2.0.0-p353 :012 > person [K2 = { first: "Mama", lastL[K: "fer[K[K[KFernandez" }
+ => {:first=>"Mama", :last=>"Fernandez"} 
+2.0.0-p353 :013 > person3 = { first: "Chris", last: "Fernandez" }
+ => {:first=>"Chris", :last=>"Fernandez"} 
+2.0.0-p353 :014 > params = {} [K
+ => {} 
+2.0.0-p353 :015 > params[:father] = person1
+ => {:first=>"Papa", :last=>"Fernandez"} 
+2.0.0-p353 :016 > params[:mother] = person2
+ => {:first=>"Mama", :last=>"Fernandez"} 
+2.0.0-p353 :017 > params[:child}[K] = person3
+ => {:first=>"Chris", :last=>"Fernandez"} 
+2.0.0-p353 :018 > params[:father][:first}[K]
+ => "Papa" 
+2.0.0-p353 :019 > params[:mother][:first]
+ => "Mama" 
+2.0.0-p353 :020 > 
+[01;32mchris@chris-VirtualBox[01;34m ~/rails_projects/sample_app $[00m exit
+
+Script done on Sun 16 Feb 2014 06:27:41 PM CST
