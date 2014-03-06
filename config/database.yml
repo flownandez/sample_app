@@ -11,11 +11,12 @@
 development:
    adapter: postgresql
    encoding: unicode
-   database: test_postgres_development
-   host: localhost
    pool: 5
-   username: test_postgres
-   password: test_postgres
+   database: d1amh0kmhvq8da
+   username: yahjjsjvmimsnw
+   password: JwqxZJW2MuD9HBocZaaRy0CW4d
+   host: ec2-54-197-241-95.compute-1.amazonaws.com
+   port: 5432
 
 # Connect on a TCP socket. Omitted by default since the client uses a
 # domain socket that doesn't need configuration. Windows does not have
@@ -38,17 +39,19 @@ development:
 test:
    adapter: postgresql
    encoding: unicode
-   database: test_postgres_test
-   host: localhost
    pool: 5
-   username: test_postgres
-   password: test_postgres
+   database: d1amh0kmhvq8da
+   username: yahjjsjvmimsnw
+   password: JwqxZJW2MuD9HBocZaaRy0CW4d
+   host: ec2-54-197-241-95.compute-1.amazonaws.com
+   port: 5432
 
 production:
    adapter: postgresql
    encoding: unicode
-   database: test_postgres_production
-   host: localhost
    pool: 5
-   username: test_postgres
-   password: test_postgres
+   database: d1amh0kmhvq8da
+   username: yahjjsjvmimsnw
+   password: JwqxZJW2MuD9HBocZaaRy0CW4d
+   host: ec2-54-197-241-95.compute-1.amazonaws.com
+   port: 5432
